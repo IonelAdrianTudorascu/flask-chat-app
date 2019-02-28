@@ -22,7 +22,7 @@
    
    <script>
         
-        let textbox = document.getElementById("message")
+        let textbox = document.getElementById("message");
    
         let timer = setTimeout(function() {
             location.reload();
@@ -30,11 +30,12 @@
          
          textbox.onkeydown = function(e) {
              
-             clearTimeout(timer)
+             clearTimeout(timer);
              
              timer = setTimeout(function() {
-                 location.reload();},5000)
-         }
+                 location.reload();
+             }, 5000);
+         };
         
    </script>
     
